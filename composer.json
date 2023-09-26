@@ -1,0 +1,17 @@
+{
+    "name": "ashurov/pluton",
+    "autoload": {
+        "psr-4": {
+            "Ashurov\\Pluton\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ashurov"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^1.1",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

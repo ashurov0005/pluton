@@ -1,0 +1,39 @@
+<form action="php/insert.php" method="post">
+  <meta charset=utf-8>
+    <link rel="stylesheet" type="text/html" href="index.html" />
+    <div class="section primary-section" id="service">
+    <div class="container">
+        <link rel="stylesheet" type="text/css" href="css/registr.css" />
+      <h1>Пройдите регистрацию здесь</h1>
+      <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+      <hr>
+  
+      <label for="fname"><b>Фамилия</b></label>
+      <input type="text" placeholder="" id = "fname" name="fname" required>
+      <hr>
+
+      <label for="lname"><b>Имя</b></label>
+      <input type="text" placeholder="" id ="lname" name="lname" required>
+      <hr>
+
+      <label for="adress"><b>адрес</b></label>
+      <input type="text" placeholder="" id = "adress" name="adress" required>
+      <hr>
+
+      <label for="phone"><b>Телефон</b></label>
+      <input type="phone" placeholder="" id = "phone" name="phone" onkeyup=" this.value = this.value.replace(/[^\d]/g,'');" required>
+      <hr>
+
+      <label for="mail"><b>mail</b></label>
+      <input type="text" placeholder="" id = "mail" name="mail" required>
+      <hr>
+
+
+      <p>Создавая учетную запись, вы соглашаетесь с нашими Условиями и конфиденциальностью.<a href="#">Условия и конфиденциальность</a>.</p>
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+  
+    <div class="container signin">
+      <p>У вас уже есть аккаунт? <a href="vxod.php">Войти</a>.</p>
+    </div>
+  </form>
